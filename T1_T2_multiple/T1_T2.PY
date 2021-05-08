@@ -28,3 +28,6 @@ with open("T1_T2_3x3.txt",'w') as f:
    f.write(f'T1 and T2 is at {theta1}\n{Angle(theta1)}\nT1 and T2 is at {theta2}\n{Angle(theta2)}\nT1 and T2 is at {theta3}\n{Angle(theta3)}\nT1 and T2 is at {theta4}\n{Angle(theta4)}')
 
 #print(f'Ti is \n {T1}\n',f'T2 is \n{T2}')
+
+with open("Test.txt",'w') as f:
+   f.write(f'T1 and T2 is at {theta1}\n{Angle(theta1)}')
